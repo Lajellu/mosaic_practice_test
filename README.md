@@ -16,7 +16,7 @@ d) `>> pip3 install Flask`
 e) `>> export FLASK_APP=index.py`
 To find the main file that Flask should run
 
-f) `>> cd mosaic_code_test/`
+f) `>> cd mosaic_practice_test/`
 
 g) `>> flask run`
 
@@ -36,7 +36,7 @@ To create an empty init file for the module containing the practice source code
 
 m) `>> cd ..`
 
-n) Add the file bootstrap.sh to the mosaic_code_test folder with these contents
+n) Add the file bootstrap.sh to the mosaic_practice_test folder with these contents
 `#!/bin/sh
 export FLASK_APP=./source_code_practice/index.py
 source $(pipenv --venv)/bin/activate
