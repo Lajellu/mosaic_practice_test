@@ -45,13 +45,16 @@ flask run -h 0.0.0.0`
 
 o) `>> chmod +x bootstrap.sh`
 
-p) `>>  pipenv --three`
+p) `>> pip3 install requests`
+To install the package to send POST and PUT requests using python, to debug questions 3 and 4
+
+q) `>>  pipenv --three`
 So a virtual environment is created for the updated situation
 
-q) `>> ./bootstrap.sh`
+r) `>> ./bootstrap.sh`
 This now sets the main file,  runs the virtual environment, and then runs the flask website
 
-r)`>> ​​pip3 install pytest`
+s)`>> ​​pip3 install pytest`
 
 
 
